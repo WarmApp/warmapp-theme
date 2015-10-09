@@ -1,0 +1,30 @@
+{
+  "name": "warmapp-theme",
+  "version": "0.0.1",
+  "description": "A bootstrap theme for warmapp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "play",
+    "music",
+    "facebook",
+    "youtube",
+    "event"
+  ],
+  "author": "llessa <lrlessa@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-iconfont": "^5.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.1.0",
+    "jeet": "^6.1.2",
+    "lodash": "^3.10.1"
+  }
+}

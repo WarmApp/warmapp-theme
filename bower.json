@@ -1,0 +1,22 @@
+{
+  "name": "warmapp-theme",
+  "version": "0.0.1",
+  "description": "The warmapp webapp bootstrap",
+  "keywords": [
+    "theme",
+    "css",
+    "html",
+    "style"
+  ],
+  "authors": [
+    "llessa <lrlessa@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
