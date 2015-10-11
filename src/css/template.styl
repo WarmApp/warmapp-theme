@@ -1,12 +1,6 @@
 <%= "/* THIS IS A GENERATED FILE, DON'T EDIT IT, YOU'LL LOST YOUR CODE */" %>
 
-@font-face {
-  font-family: '<%= fontName %>';
-  font-style: normal;
-  font-weight: normal;
-  src: url("<%= fontPath %><%= fontName %>.eot");
-  src: url("<%= fontPath %><%= fontName %>.eot?#iefix") format("embedded-opentype"), url("<%= fontPath %><%= fontName %>.woff") format("woff"), url("<%= fontPath %><%= fontName %>.ttf") format("truetype"), url("<%= fontPath %><%= fontName %>.svg#UniversDeutscheBankRegular") format("svg");
-}
+font-face('<%= fontName %>', '<%= fontName %>', 'normal');
 
 icons = @block {
   display: inline-block;

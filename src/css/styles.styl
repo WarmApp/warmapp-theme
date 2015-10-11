@@ -1,12 +1,17 @@
+// external resources
 @import 'jeet';
-@import 'icons';
+@import 'rupture';
 
+// common css rules and specs
+@import 'common/variables';
+@import 'common/fonts';
+@import 'common/icons';
+@import 'common/normalize';
+@import 'common/mixins';
+@import 'common/placeholders';
+@import 'common/general';
+@import 'common/typo';
 
-.something {
-    &:before {
-        {s-cd}
-        color: black;
-        width: 30px;
-        height: 40px;
-    }
-}
+//components
+@import 'components/navbar';
+@import 'components/jumbotron';

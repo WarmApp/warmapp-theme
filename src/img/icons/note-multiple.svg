@@ -1,12 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-<g>
-	<circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="18" cy="55" r="8"/>
-	<circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="46" cy="49" r="8"/>
-	<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="54,49 54,1 26,7 26,55 	"/>
-	<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="26" y1="23" x2="54" y2="17"/>
-</g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   id="Layer_1"
+   xml:space="preserve"><metadata
+     id="metadata17"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs15" /><path
+     d="m 55,-0.25 -1.21875,0.28125 -28,6 L 25,6.1875 25,7 25,49.375 C 23.348302,47.323877 20.829372,46 18,46 c -4.958718,0 -9,4.041282 -9,9 0,4.958718 4.041282,9 9,9 4.958718,0 9,-4.041282 9,-9 L 27,23.8125 53,18.21875 53,43.375 C 51.348302,41.323877 48.829372,40 46,40 c -4.958718,0 -9,4.041282 -9,9 0,4.958718 4.041282,9 9,9 4.958718,0 9,-4.041282 9,-9 L 55,1 55,-0.25 z M 53,2.21875 53,16.1875 27,21.78125 27,7.8125 53,2.21875 z M 46,42 c 3.877838,0 7,3.122162 7,7 0,3.877838 -3.122162,7 -7,7 -3.877838,0 -7,-3.122162 -7,-7 0,-3.877838 3.122162,-7 7,-7 z m -28,6 c 3.877838,0 7,3.122162 7,7 0,3.877838 -3.122162,7 -7,7 -3.877838,0 -7,-3.122162 -7,-7 0,-3.877838 3.122162,-7 7,-7 z"
+     id="circle5"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" /></svg>

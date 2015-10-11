@@ -1,0 +1,39 @@
+.navbar {
+    background-color: grapefruit-low;
+
+    &--dependent {
+        background-color: transparent;
+    }
+
+    &__container {
+        center(container-width);
+        border-bottom: 1px solid rgba(white, 0.2);
+    }
+
+    &__list {
+        font-size: 0;
+        display: inline-block;
+
+        @extends $list-unstyled;
+
+        &--right {
+            float: right;
+        }
+
+        li {
+            display: inline-block;
+        }
+    }
+
+    &__item {
+        padding: 15px 10px;
+        display: block;
+        font-size: remify(14px);
+        text-transform: uppercase;
+        color: white;
+
+        &--logo {
+            display: block;
+        }
+    }
+}
