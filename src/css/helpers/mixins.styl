@@ -5,12 +5,9 @@ img-url(file) {
 font-url(file) {
     return font-path + file;
 }
+
 // gradient 50%-50% top to bottom mixin
 background-gradient-image(filename, color1, color2, opacity) {
-    background: -webkit-linear-gradient(to bottom, rgba(color1, opacity), rgba(color2, opacity)), url(img-url(filename));
-    background: -o-linear-gradient(to bottom, rgba(color1, opacity), rgba(color2, opacity)), url(img-url(filename));
-    background: -ms-linear-gradient(to bottom, rgba(color1, opacity), rgba(color2, opacity)), url(img-url(filename));
-    background: -moz-linear-gradient(to bottom, rgba(color1, opacity), rgba(color2, opacity)), url(img-url(filename));
     background: linear-gradient(to bottom, rgba(color1, opacity), rgba(color2, opacity)), url(img-url(filename));
 }
 
@@ -28,6 +25,7 @@ font-face(family, filename, weight, style = 'normal') {
     }
 }
 
-remify(value) {
-    return unit(value / 14, 'rem');
+remify(property, value) {
+    {property}: value;
+    {property}: unit(value / 14, 'rem');
 }

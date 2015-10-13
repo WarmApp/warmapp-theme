@@ -28,6 +28,7 @@
     "imagemin-pngquant": "^4.2.0",
     "jeet": "^6.1.2",
     "lodash": "^3.10.1",
+    "nib": "^1.1.0",
     "rupture": "^0.6.1"
   }
 }

@@ -1,0 +1,27 @@
+.btn {
+    padding: 5px 10px;
+    background-color: grapefruit-low;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+        background-color: grapefruit-high;
+    }
+
+    &--main {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        font-size: 0;
+
+        &:before {
+            remify(font-size, 28px);
+            color: white;
+            {i-paperplane}
+        }
+
+        &:hover {
+            background-color: aqua-low;
+        }
+    }
+}

@@ -10,6 +10,7 @@ var rename = require('gulp-rename');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 var rupture = require('rupture');
+var nib = require('nib');
 
 gulp.task('images', function() {
     return gulp.src('./src/img/*')
@@ -30,7 +31,7 @@ gulp.task('css', function() {
     gulp.src('./src/css/styles.styl')
         .pipe(sourcemaps.init())
         .pipe(stylus({
-            use: [jeet(), rupture()],
+            use: [jeet(), rupture(), nib()],
             compress: false
         }))
         .pipe(sourcemaps.write('.'))
