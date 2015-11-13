@@ -1,0 +1,15 @@
+<%= "/* THIS IS A GENERATED FILE, DON'T EDIT IT, YOU'LL LOST YOUR CODE */" %>
+
+font-face('<%= fontName %>', '<%= fontName %>', 'normal');
+
+icons = @block {
+  display: inline-block;
+  font-family: "<%= fontName %>";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+<% _.each(glyphs, function(glyph) { %> <%= className %>-<%= glyph.name %> = @block {content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>"; {icons}}
+<% }); %>

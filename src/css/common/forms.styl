@@ -1,0 +1,28 @@
+.form {
+    color: dark-gray-low;
+
+    &__group {
+        width: 100%;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    &__text {
+        height: 36px;
+        padding: 7px 13px;
+        width: 100%;
+        border: 1px solid light-gray-low;
+        border-radius: 5px;
+
+        &--main {
+            height: 50px;
+            remify(font-size, 20px);
+        }
+    }
+
+    &--main {
+        center(container-width - container-width / 3);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

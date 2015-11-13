@@ -1,0 +1,47 @@
+.navbar {
+    height: 50px;
+    background-color: grapefruit-low;
+
+    &--dependent {
+        background-color: transparent;
+    }
+
+    &__container {
+        center(container-width, 20px);
+        border-bottom: 1px solid rgba(light-gray-high, 0.2);
+    }
+
+    &__list {
+        font-size: 0;
+        display: inline-block;
+
+        @extends $list-unstyled;
+
+        &--right {
+            float: right;
+        }
+
+        li {
+            display: inline-block;
+        }
+    }
+
+    &__item {
+        padding: 15px 10px;
+        display: block;
+        text-transform: uppercase;
+        color: white;
+
+        remify(font-size, 14px);
+
+        &--logo {
+            display: block;
+        }
+    }
+}
+
+.b-playlist {
+    .navbar {
+        margin-top: -50px;
+    }
+}

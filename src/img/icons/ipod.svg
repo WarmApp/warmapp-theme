@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   id="Layer_1"
+   xml:space="preserve"><metadata
+     id="metadata19"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs17" /><path
+     d="m 15,0 0,1 0,62 0,1 1,0 32,0 1,0 0,-1 0,-62 0,-1 -1,0 -32,0 -1,0 z m 2,2 30,0 0,2 -30,0 0,-2 z m 0,4 30,0 0,29 -30,0 0,-29 z m 0,31 30,0 0,25 -30,0 0,-25 z m 14.5,2 C 25.712855,39 21,43.712855 21,49.5 21,55.287145 25.712855,60 31.5,60 37.287145,60 42,55.287145 42,49.5 42,43.712855 37.287145,39 31.5,39 z m 0,2 C 36.206265,41 40,44.793735 40,49.5 40,54.206265 36.206265,58 31.5,58 26.793735,58 23,54.206265 23,49.5 23,44.793735 26.793735,41 31.5,41 z m 0,5 C 29.578848,46 28,47.578848 28,49.5 28,51.421152 29.578848,53 31.5,53 33.421152,53 35,51.421152 35,49.5 35,47.578848 33.421152,46 31.5,46 z m 0,2 C 32.340272,48 33,48.659728 33,49.5 33,50.340272 32.340272,51 31.5,51 30.659728,51 30,50.340272 30,49.5 30,48.659728 30.659728,48 31.5,48 z"
+     id="rect5"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" /></svg>
