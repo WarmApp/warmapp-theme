@@ -1,4 +1,5 @@
 .navbar {
+    height: 50px;
     background-color: grapefruit-low;
 
     &--dependent {
@@ -6,7 +7,7 @@
     }
 
     &__container {
-        center(container-width);
+        center(container-width, 20px);
         border-bottom: 1px solid rgba(light-gray-high, 0.2);
     }
 
@@ -36,5 +37,11 @@
         &--logo {
             display: block;
         }
+    }
+}
+
+.b-playlist {
+    .navbar {
+        margin-top: -50px;
     }
 }

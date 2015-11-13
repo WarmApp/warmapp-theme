@@ -7,3 +7,16 @@ $list-unstyled {
         list-style-type: none;
     }
 }
+
+$hover-behavior {
+    &:hover {
+        &:before {
+            transition: color 0.3s ease;
+            color: grapefruit-high;
+        }
+    }
+
+    &.is-active {
+        color: grapefruit-high;
+    }
+}
