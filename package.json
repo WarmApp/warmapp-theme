@@ -1,7 +1,7 @@
 {
   "name": "warmapp-theme",
   "version": "0.0.1",
-  "description": "A bootstrap theme for warmapp",
+  "description": "A 'bootstrap' theme for warmapp",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "event"
   ],
   "author": "llessa <lrlessa@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.9.10",
     "gulp": "^3.9.0",
